@@ -7,6 +7,10 @@ The CNN model is based on tensorflows implentation of keras library.The model cl
 3.tensorflow   
 4.opencv as cv2     
 5.tensorflow.keras (tensorfow implementation of keras).     
+6.pytessaract      
+7.imutils     
+8.argparse      
+
 
 
 # Code and Files
@@ -42,6 +46,7 @@ The test accuracy achieved is 86.86%
 
 
 **2.Number Plate detector**
+This is achieved using Tessaract and EAST text detection model(pre trained model)
 Download the pre-trained EAST text detector link- https://drive.google.com/open?id=1pBPWd541Jh0zUCxMk30eNylhGNP6zSZF     
 Open the numberplate.py file, input the path of the image in image=() and the EAST model path in net =()
 ```python
