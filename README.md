@@ -6,7 +6,7 @@ The CNN model is based on tensorflows implentation of keras library.The model cl
 2.os    
 3.tensorflow   
 4.opencv as cv2     
-5.tensor.keras (tensorfow implementation of keras).     
+5.tensorflow.keras (tensorfow implementation of keras).     
 
 
 # Code and Files
