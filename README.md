@@ -22,7 +22,7 @@ I have used Sublime text as my text editor. Python version is 3.7.3 OS:macos 10.
 
 
 
-**3.How to run the code**
+**3.How to run the code **
 Save the Dataset on your computer and set the DATA_DIR as the filepath
 ```python
 DATA_DIR = "filepath"
@@ -34,3 +34,6 @@ pred = model.predict([prepare("filepath")])
 ```    
 The training accuracy achieved is 99.02%     
 The test accuracy achieved is 86.86%
+
+# Number Plate detector
+
