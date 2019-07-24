@@ -44,13 +44,3 @@ The training accuracy achieved is 99.02%
 The test accuracy achieved is 86.86%
 
 
-
-**2.Number Plate detector**
-This is achieved using Tessaract and EAST text detection model(pre trained model)
-Download the pre-trained EAST text detector link- https://drive.google.com/open?id=1pBPWd541Jh0zUCxMk30eNylhGNP6zSZF     
-Open the numberplate.py file, input the path of the image in image=() and the EAST model path in net =()
-```python
-image = cv2.imread("filepath")
-net = cv2.dnn.readNet("EAST filepath")
-```
-Run the code 
