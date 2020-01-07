@@ -36,6 +36,6 @@ To use the saved model,enter the path to the image in the the input bar
 pred = model.predict([prepare("filepath")])
 ```    
 The training accuracy achieved is 99.02%     
-The test accuracy achieved is 95.86%
+The test accuracy achieved is 93.61%
 
 
